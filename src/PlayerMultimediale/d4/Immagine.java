@@ -28,10 +28,8 @@ class Immagine extends ElementoMultimediale {
 
     @Override
     public String toString() {
-        System.out.println(
+        return
                 "\"" + this.titolo
-                + "\", Lum. : " + "*".repeat(this.luminosita)
-        );
-        return null;
+                + "\", Lum. : " + "*".repeat(this.luminosita);
     }
 }

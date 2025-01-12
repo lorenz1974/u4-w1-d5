@@ -44,12 +44,11 @@ class Video extends ElementoMultimediale implements Riproducibile {
 
     @Override
     public String toString() {
-        System.out.println
-                ("\"" + this.titolo + "\", Durata.: " + this.durata +
+        return
+                "\"" + this.titolo + "\", Durata.: " + this.durata +
                 ", Vol.: " + "!".repeat(this.volume) +
-                ", Lum. : " + "*".repeat(this.luminosita)
-                );
-        return null;
+                ", Lum. : " + "*".repeat(this.luminosita);
+
     }
 }
 

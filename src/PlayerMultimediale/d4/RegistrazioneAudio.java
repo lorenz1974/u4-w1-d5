@@ -33,11 +33,9 @@ class RegistrazioneAudio extends ElementoMultimediale implements Riproducibile {
 
     @Override
     public String toString() {
-        System.out.println(
+        return
                 "\"" + this.titolo +
                 "\", Durata.: " + this.durata +
-                ", Vol.: " + "!".repeat(this.volume)
-        );
-        return null;
+                ", Vol.: " + "!".repeat(this.volume);
     }
 }
